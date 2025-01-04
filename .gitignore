@@ -1,0 +1,26 @@
+# 忽略所有文件
+*
+
+# 确保 ignore 文件被跟踪
+!.gitignore
+
+# 取消忽略 mix 文件夹及其所有内容
+!mix/
+!mix/**
+
+# 取消忽略 src 文件夹，仅保留其子目录结构
+!src/
+src/*
+
+# 取消忽略 src/network 和 src/point-to-point 的子目录，仅保留其结构
+!src/network/
+src/network/*
+!src/point-to-point/
+src/point-to-point/*
+
+# 取消忽略具体的底层目标文件夹及其所有内容
+!src/network/utils/
+!src/network/utils/**
+!src/point-to-point/model/
+!src/point-to-point/model/**
+
