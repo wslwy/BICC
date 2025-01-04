@@ -3,6 +3,7 @@
 
 # 确保 ignore 文件被跟踪
 !.gitignore
+!.README.md
 
 # 取消忽略 mix 文件夹及其所有内容
 !mix/
